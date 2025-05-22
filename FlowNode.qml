@@ -18,10 +18,20 @@ Rectangle {
     // Connection points
     property real cx: x + width/2
     property real cy: y + height/2
-    // property real topY: y
-    // property real bottomY: y + height
-    // property real leftX: x
-    // property real rightX: x + width
+    property real topY: y
+    property real bottomY: y + height
+    property real leftX: x
+    property real rightX: x + width
+
+    // New connection point coordinates
+    property real ptTopX: x + width/2
+    property real ptTopY: y
+    property real ptBottomX: x + width/2
+    property real ptBottomY: y + height
+    property real ptLeftX: x
+    property real ptLeftY: y + height/2
+    property real ptRightX: x + width
+    property real ptRightY: y + height/2
     
     // property real bothY: y + height/2
     // property real bothX: x + width/2
