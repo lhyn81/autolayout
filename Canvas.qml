@@ -120,7 +120,7 @@ Repeater {
 
             if (!fn || !tn) {
                 return { p0x: 0, p0y: 0, p1x: 0, p1y: 0, p2x: 0, p2y: 0, p3x: 0, p3y: 0,
-                         intermediatePointX: 0, intermediatePointY: 0, isDirect: true, sweep: PathArc.ClockwiseSweep };
+                         intermediatePointX: 0, intermediatePointY: 0, isDirect: true, sweep: PathArc.ClockwiseSweep, useArc: false };
             }
 
             const directAlignThreshold = 15; // Max pixels off-axis for a "direct" connection attempt
